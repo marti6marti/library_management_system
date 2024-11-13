@@ -18,7 +18,7 @@ public class Libro {
     	this.prestado = false;
 	}
 
-	// Getters and Setters
+	// Captadores y definidores
 	public String getTitulo() {
     	return titulo;
 	}
@@ -52,7 +52,7 @@ public class Usuario {
     	this.dni = dni;
 	}
 
-	// Getters and Setters
+	// Captadores y definidores
 	public String getNombre() {
     	return nombre;
 	}
@@ -79,7 +79,7 @@ public class Prestamo {
     	this.fechaDevolucion = fechaDevolucion;
 	}
 
-	// Getters and Setters
+	// Captadores y definidores
 	public Libro getLibro() {
     	return libro;
 	}
